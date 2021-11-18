@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #e2e2e2;
+}
+.openScreen{
+	background: url(../img/开屏.png);
+	margin-left: 5vw;
+	width: 90vw;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+.playGame{
+	background: url(../img/开始游戏.png);
+	background-size: 100% 100%;
+	position: absolute;
+	width: 13vw;
+	height: 5vh;
+	bottom: 10vh;
+	right: 17vw;
+}
+.worldMap{
+	background: url(../img/世界地图.png);
+	margin-left: 5vw;
+	width: 90vw;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+.ItalyImg{
+	background: url(../img/世界-意大利.png);
+	width: 12vw;
+	height: 16vh;
+	position: absolute;
+	top: 16vh;
+	left: 8vw;
+	background-size: 100% 100%;
+}
+.EgyptImg{
+	background: url(../img/世界-埃及.png);
+	position: absolute;
+	width: 7.5vw;
+	height: 18vh;
+	top: 46vh;
+	left: 18vw;
+	background-size: 100% 100%;
+}
+.LndiaImg{
+	background: url(../img/世界-印度.png);
+	position: absolute;
+	width: 9.5vw;
+	height: 20vh;
+	top: 44vh;
+	left: 52vw;
+	background-size: 100% 100%;
+}
+.ChinaImg{
+	background: url(../img/世界-宁波.png);
+	position: absolute;
+	width: 7.5vw;
+	height: 13vh;
+	top: 37vh;
+	left: 79vw;
+	background-size: 100% 100%;
+}
+.pigeonImg{
+	background: url(../img/鸽子.png);
+	position: absolute;
+	width: 5.5vw;
+	height: 9vh;
+	top: 12vh;
+	left: 18vw;
+	background-size: 100% 100%;
+}
+.atlasImg{
+	background: url(../img/图鉴.png);
+	background-size: 100% 100%;
+	width: 11vw;
+	height: 23vh;
+	position: absolute;
+	bottom: -1vh;
+	left: 5vw;
+	border-radius: 100px;
+}
+.atlasText{
+	background-color: transparent;
+	position: absolute;
+	bottom: 2vh;
+	left: 8.5vw;
+	letter-spacing: 0.5vw;
+	color: #635035;
+	font-size: 10px;
+	font-weight: bold;
+}
+.atlasWindow{
+	background: url(../img/弹窗.png);
+	background-size: 100% 100%;
+	width: 49vw;
+	height: 75vh;
+	position: absolute;
+	top: 9vh;
+	left: 26vw;
+}
