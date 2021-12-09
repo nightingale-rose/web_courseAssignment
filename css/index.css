@@ -1,0 +1,379 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #e2e2e2;
+	transition-duration: 0.5s;
+}
+.openScreen{
+	background: url(../img/开屏.png);
+	margin-left: 5vw;
+	width: 90vw;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+.playGame{
+	background: url(../img/开始游戏.png);
+	background-size: 100% 100%;
+	position: absolute;
+	width: 13vw;
+	height: 5vh;
+	bottom: 10vh;
+	right: 17vw;
+	cursor: pointer;
+}
+.playGame:hover{
+	transform: scale(1.1,1.1);
+}
+.worldMap{
+	background: url(../img/世界地图.png);
+	margin-left: 5vw;
+	width: 90vw;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+.ItalyImg{
+	background: url(../img/世界-意大利.png);
+	width: 12vw;
+	height: 16vh;
+	position: absolute;
+	top: 16vh;
+	left: 8vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.ItalyImg:hover{
+	transform: scale(1.1,1.1);
+}
+.EgyptImg{
+	background: url(../img/世界-埃及.png);
+	position: absolute;
+	width: 7.5vw;
+	height: 18vh;
+	top: 46vh;
+	left: 18vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.EgyptImg:hover{
+	transform: scale(1.1,1.1);
+}
+.LndiaImg{
+	background: url(../img/世界-印度.png);
+	position: absolute;
+	width: 9.5vw;
+	height: 20vh;
+	top: 44vh;
+	left: 52vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.LndiaImg:hover{
+	transform: scale(1.1,1.1);
+}
+.ChinaImg{
+	background: url(../img/世界-宁波.png);
+	position: absolute;
+	width: 7.5vw;
+	height: 13vh;
+	top: 37vh;
+	left: 79vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.ChinaImg:hover{
+	transform: scale(1.1,1.1);
+}
+.pigeonImg{
+	background: url(../img/鸽子.png);
+	position: absolute;
+	width: 5.5vw;
+	height: 9vh;
+	top: 12vh;
+	left: 18vw;
+	background-size: 100% 100%;
+}
+.pigeonImg:hover{
+	transform: scale(1.1,1.1);
+}
+.atlasImg{
+	background: url(../img/图鉴.png);
+	background-size: 100% 100%;
+	width: 11vw;
+	height: 23vh;
+	position: absolute;
+	bottom: -1vh;
+	left: 5vw;
+	border-radius: 100px;
+	cursor: pointer;
+}
+.atlasImg:hover{
+	transform: scale(1.1,1.1);
+}
+.atlasText{
+	background-color: transparent;
+	position: absolute;
+	bottom: 2vh;
+	left: 8.5vw;
+	letter-spacing: 0.5vw;
+	color: #635035;
+	font-size: 10px;
+	font-weight: bold;
+}
+.LndiaMap{
+	background: url(../img/印度地图亮.png);
+	margin-left: 5vw;
+	width: 90vw;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+
+.cattleImg{
+	background: url(../img/牛.png) no-repeat;
+	position: absolute;
+	width: 5.5vw;
+	height: 9vh;
+	top: 25vh;
+	left: 26vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.cattleImg:hover{
+	transform: scale(1.1,1.1);
+}
+.TajMahalImg{
+	background: url(../img/小宫殿.png);
+	position: absolute;
+	width: 7.5vw;
+	height: 16vh;
+	top: 46vh;
+	left: 22vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.TajMahalImg:hover{
+	transform: scale(1.1,1.1);
+}
+.LotusTempleImg{
+	background: url(../img/莲花寺.png);
+	position: absolute;
+	width: 7.5vw;
+	height: 12vh;
+	top: 75vh;
+	left: 25vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.LotusTempleImg:hover{
+	transform: scale(1.1,1.1);
+}
+.IndiaCateDelhiImg{
+	background: url(../img/大门.png);
+	position: absolute;
+	width: 14.5vw;
+	height: 25vh;
+	top: 22vh;
+	left: 45vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.IndiaCateDelhiImg:hover{
+	transform: scale(1.1,1.1);
+}
+.AmberFortImg{
+	background: url(../img/大宫殿.png);
+	position: absolute;
+	width: 23.5vw;
+	height: 22vh;
+	top: 1vh;
+	left: 25vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.AmberFortImg:hover{
+	transform: scale(1.1,1.1);
+}
+.ElephantImg{
+	background: url(../img/大象.png);
+	position: absolute;
+	width: 8.5vw;
+	height: 15vh;
+	top: 56vh;
+	left: 37vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.ElephantImg:hover{
+	transform: scale(1.1,1.1);
+}
+.zitherImg{
+	background: url(../img/琴.png);
+	position: absolute;
+	width: 8.5vw;
+	height: 25vh;
+	top: 6vh;
+	left: 68vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.zitherImg:hover{
+	transform: scale(1.1,1.1);
+}
+.spicesImg{
+	background: url(../img/香料.png);
+	position: absolute;
+	width: 8.5vw;
+	height: 18vh;
+	top: 14.5vh;
+	left: 12.5vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.spicesImg:hover{
+	transform: scale(1.1,1.1);
+}
+.flaskImg{
+	background: url(../img/壶.png);
+	position: absolute;
+	width: 5.5vw;
+	height: 16vh;
+	top: 34.5vh;
+	left: 36.5vw;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.flaskImg:hover{
+	transform: scale(1.1,1.1);
+}
+.spicesGressImg{
+	background: url(../img/香料草.png);
+	position: absolute;
+	width: 11.5vw;
+	height: 11vh;
+	top: 22.5vh;
+	left: 11.5vw;
+	background-size: 100% 100%;
+}
+.flaskGressImg{
+	background: url(../img/壶草.png);
+	position: absolute;
+	width: 7.5vw;
+	height: 7vh;
+	top: 44.5vh;
+	left: 37.5vw;
+	background-size: 100% 100%;
+}
+.completeFlaskImg{
+	background: url(../img/壶.png);
+	position: absolute;
+	width: 5.5vw;
+	height: 14vh;
+	top: 5.7vh;
+	left: 86.4vw;
+	background-size: 100% 100%;
+}
+.completeSpicesImg{
+	background: url(../img/香料.png);
+	position: absolute;
+	width: 6vw;
+	height: 12vh;
+	top: 26.65vh;
+	left: 86.4vw;
+	background-size: 100% 100%;
+}
+.completeZitherImg{
+	background: url(../img/琴.png);
+	position: absolute;
+	width: 8vw;
+	height: 17vh;
+	top: 43.65vh;
+	left: 85.8vw;
+	background-size: 100% 100%;
+}
+#atlasBlockImg{
+	background: url(../img/图鉴页面.png) no-repeat;
+	position: absolute;
+	width: 34vw;
+	height: 46vh;
+	top: 23.65vh;
+	left: 30.8vw;
+	background-size: 100% 100%;
+}
+#atlasZither{
+	background: url(../img/琴.png) no-repeat;
+	position: absolute;
+	width: 5vw;
+	height: 13vh;
+	top: 30.65vh;
+	left: 25.8vw;
+	background-size: 100% 100%;
+}
+#atlasFlask{
+	background: url(../img/壶.png) no-repeat;
+	position: absolute;
+	width: 5vw;
+	height: 13vh;
+	top: 30.65vh;
+	left: 17.8vw;
+	background-size: 100% 100%;
+}
+#atlasSpices{
+	background: url(../img/香料.png) no-repeat;
+	position: absolute;
+	width: 5vw;
+	height: 13vh;
+	top: 30.65vh;
+	left: 9.8vw;
+	background-size: 100% 100%;
+}
+.littleBoat{
+	background: url(../img/船只小.png) no-repeat;
+	width: 11vw;
+	height: 19vh;
+	top: 34vh;
+	left: 19vw;
+	position: absolute;
+	background-size: 100% 100%;
+	animation-timing-function:linear;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+@keyframes LndiaBoat{
+	0%{
+		top: 80.65vh;
+		left: 38.8vw;
+	}
+	40%{
+		top: 59.65vh;
+		left: 44.8vw;
+	}
+	100%{
+		top: 30.65vh;
+		left: 57.8vw;
+	}
+}
+@keyframes toLndia{
+	0%{
+		top: 34vh;
+		left: 19vw;
+	}
+	40%{
+		top: 52vh;
+		left: 25vw;
+	}
+	55%{
+		top: 54vh;
+		left: 32vw;
+	}
+	80%{
+		top: 63vh;
+		left: 39vw;
+	}
+	90%{
+		top: 58vh;
+		left: 46vw;
+	}
+	100%{
+		top: 63vh;
+		left: 52vw;
+	}
+}
