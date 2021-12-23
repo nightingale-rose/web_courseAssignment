@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		
+		<script  type="text/javascript" src="js\jquery.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<title></title>
+	</head>
+	<body>
+		
+		
+		<!--开始游戏界面-->
+		<div class="openScreen" id="openScreen">
+			<div class="playGame" id="playGame"></div>
+		</div>
+		
+		
+		
+		<!--世界地图界面-->
+		<div class="worldMap" id="worldMap">
+			<!--小船运动-->
+			<img src="./img/船只小.png" id="littleBoat" class="littleBoat"/>
+			<!-- <div class="littleBoat" id="littleBoat"></div>
+			<div class="middleBoat" id=""></div> -->
+			
+			<!--各地图标-->
+			<div id="Italy" class="ItalyImg"></div>
+			<div id="pigeon" class="pigeonImg"></div>
+			<div id="Egypt" class="EgyptImg"></div>
+			<div id="Lndia" class="LndiaImg"></div>
+			<div id="China" class="ChinaImg"></div>
+			
+			<!--选择人物-->
+			<div class="selectPerson">
+				<div class="selectPersonText"></div>
+				<div class="maizhelun"></div>
+				<div class="zhenghe" id="selectZhenghe"></div>
+			</div>
+		</div>
+		
+		<!--埃及地图-->
+		<div class="EgyptMap">
+			<!--小船运动-->
+			<div class="littleBoatInEgypt"></div>
+		</div>
+		
+		<!--印度地图界面-->
+		<div class="LndiaMap" id="LndiaMap">
+			<!--小船运动-->
+			<img src="img/船只小.png" class="littleBoatInLndia"/>
+			
+			<!--退格图标-->
+			<div class="backButton" id="backButtonInLndia"></div>
+			
+			<!--物品介绍-->
+			<div class="spicesKnow"></div>
+			<div class="zitherKnow"></div>
+			<div class="flaskKnow"></div>
+			<div class="TajMahalKnow"></div>
+			<div class="LotusTempleKnow"></div>
+			<div class="IndiaCateDelhiKnow"></div>
+			<div class="AmberFortKnow"></div>
+			
+			
+			<!--各地图标-->
+			<div class="cattleImg"></div>
+			<div class="TajMahalImg"></div>
+			<div class="LotusTempleImg"></div>
+			<div class="IndiaCateDelhiImg"></div>
+			<div class="AmberFortImg"></div>
+			<div class="ElephantImg"></div>
+			<div class="zitherImg" id="zither"></div>
+			<div class="spicesImg" id="spices"></div>
+			<div class="flaskImg" id="flask"></div>
+			<div class="spicesGressImg"></div>
+			<div class="flaskGressImg"></div>
+			<div class="completeFlaskImg" id="completeFlask"></div>
+			<div class="completeSpicesImg" id="completeSpices"></div>
+			<div class="completeZitherImg" id="completeZither"></div>
+			
+			<div class="game" id="Lndiagame" style="background: url(img/麦哲伦印度游戏.png); background-size: 100% 100%;">
+				<div class="gameZitherLeft"></div>
+				<div class="gameZitherRight"></div>
+			
+				<div class="gameSpicesLeft"></div>
+				<div class="gameSpicesRight"></div>
+			
+				<div class="gameFlaskLeft"></div>
+				<div class="gameFlaskRight"></div>
+				
+				<img src="./img/琴连线.png" class="zitherLine"/>
+				<img src="./img/壶连线.png" class="flaskLine" />
+				<img src="./img/香料连线.png" class="spicesLine" />
+			</div>
+			<div class="game" id="LndiagameOver" style="background: url(img/麦哲伦印度成功.png); background-size: 100% 100%;"></div>
+			
+			
+			<p class="gameText">
+					收集完所有物品可开始额外游戏
+			</p>
+			
+			<div class="gameButton"></div>
+		</div>
+		
+		<!--中国地图界面-->
+		<div class="ChinaMap">
+			
+			<!--小船运动-->
+			<img src="img/船只小.png" class="littleBoatInChina"/>
+			
+			<!--退格图标-->
+			<div class="backButton" id="backButtonInChina"></div>
+			
+			<!--各地图标-->
+			<div class="huizhan" id="huizhan"></div>
+			<div class="qingan"></div>
+			<div class="qita"></div>
+			<div class="tianfeng"></div>
+			<div class="ayuwang"></div>
+			<div class="ningboGress"></div>
+			
+			<!--图标介绍-->
+			<div class="qinganKnow"></div>
+			<div class="qitaKnow"></div>
+			<div class="tianfengKnow"></div>
+			<div class="ayuwangKnow"></div>
+		</div>
+		
+		<!--结束界面-->
+		<div class="finishMap">
+			<img src="img/恭喜通关.png" class="finishImg"/>
+		</div>
+		
+		<!--图鉴按钮-->
+		<div id="atlas">
+			<div id="atlasImg" class="atlasImg"></div>
+			<p class="atlasText">图鉴</p>
+		</div>
+		<!--图鉴界面-->
+		<div id="atlasBlock">
+			<div id="atlasBlockImg">
+				<!--印度-->
+				<div id="atlasZither"></div>
+				<div id="atlasFlask"></div>
+				<div id="atlasSpices"></div>
+				
+				<!--意大利-->
+				<div id="atlasCheese"></div>
+				<div id="atlasNoodle"></div>
+				<div id="atlasShoes"></div>
+			</div>
+		</div>
+		
+		
+	</body>
+</html>
