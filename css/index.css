@@ -4,14 +4,14 @@
 	background-color: #e2e2e2;
 }
 .openScreen{
-	background: url(../img/开屏.png);
+	background: url(../img/open.png) no-repeat;
 	margin-left: 5vw;
 	width: 90vw;
 	height: 100vh;
 	background-size: 100% 100%;
 }
 .playGame{
-	background: url(../img/开始游戏.png);
+	background: url(../img/openGame.png) no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	width: 13vw;
@@ -25,14 +25,14 @@
 	transition-duration: 0.5s;
 }
 .worldMap{
-	background: url(../img/世界地图.png);
+	background: url(../img/worldMap.png) no-repeat;
 	margin-left: 5vw;
 	width: 90vw;
 	height: 100vh;
 	background-size: 100% 100%;
 }
 .ItalyImg{
-	background: url(../img/世界-意大利.png);
+	background: url(../img/world-yidali.png) no-repeat;
 	width: 12vw;
 	height: 16vh;
 	position: absolute;
@@ -46,7 +46,7 @@
 	transition-duration: 0.5s;
 }
 .EgyptImg{
-	background: url(../img/世界-埃及.png);
+	background: url(../img/world-aiji.png) no-repeat;
 	position: absolute;
 	width: 7.5vw;
 	height: 18vh;
@@ -60,7 +60,7 @@
 	transition-duration: 0.5s;
 }
 .LndiaImg{
-	background: url(../img/世界-印度.png);
+	background: url(../img/world-nidu.png) no-repeat;
 	position: absolute;
 	width: 9.5vw;
 	height: 20vh;
@@ -74,7 +74,7 @@
 	transition-duration: 0.5s;
 }
 .ChinaImg{
-	background: url(../img/世界-宁波.png);
+	background: url(../img/world-nibo.png) no-repeat;
 	position: absolute;
 	width: 7.5vw;
 	height: 13vh;
@@ -88,7 +88,7 @@
 	transition-duration: 0.5s;
 }
 .pigeonImg{
-	background: url(../img/鸽子.png);
+	background: url(../img/gezi.png);
 	position: absolute;
 	width: 5.5vw;
 	height: 9vh;
@@ -101,7 +101,7 @@
 	transition-duration: 0.5s;
 }
 .atlasImg{
-	background: url(../img/图鉴.png);
+	background: url(../img/atlasImg.png) no-repeat;
 	background-size: 100% 100%;
 	width: 11vw;
 	height: 23vh;
@@ -126,7 +126,7 @@
 	font-weight: bold;
 }
 .LndiaMap{
-	background: url(../img/印度地图亮.png);
+	background: url(../img/yinduMap.png) no-repeat;
 	margin-left: 5vw;
 	width: 90vw;
 	height: 100vh;
@@ -135,7 +135,7 @@
 }
 
 .cattleImg{
-	background: url(../img/牛.png) no-repeat;
+	background: url(../img/niu.png) no-repeat;
 	position: absolute;
 	width: 5.5vw;
 	height: 9vh;
@@ -149,7 +149,7 @@
 	transition-duration: 0.5s;
 }
 .TajMahalImg{
-	background: url(../img/小宫殿.png);
+	background: url(../img/littlegongdian.png) no-repeat;
 	position: absolute;
 	width: 7.5vw;
 	height: 16vh;
@@ -163,7 +163,7 @@
 	transition-duration: 0.5s;
 }
 .LotusTempleImg{
-	background: url(../img/莲花寺.png);
+	background: url(../img/lian.png) no-repeat;
 	position: absolute;
 	width: 7.5vw;
 	height: 12vh;
@@ -177,7 +177,7 @@
 	transition-duration: 0.5s;
 }
 .IndiaCateDelhiImg{
-	background: url(../img/大门.png);
+	background: url(../img/cate.png) no-repeat;
 	position: absolute;
 	width: 14.5vw;
 	height: 25vh;
@@ -191,7 +191,7 @@
 	transition-duration: 0.5s;
 }
 .AmberFortImg{
-	background: url(../img/大宫殿.png);
+	background: url(../img/fort.png) no-repeat;
 	position: absolute;
 	width: 23.5vw;
 	height: 22vh;
@@ -205,7 +205,7 @@
 	transition-duration: 0.5s;
 }
 .ElephantImg{
-	background: url(../img/大象.png);
+	background: url(../img/ele.png) no-repeat;
 	position: absolute;
 	width: 8.5vw;
 	height: 15vh;
@@ -219,7 +219,7 @@
 	transition-duration: 0.5s;
 }
 .zitherImg{
-	background: url(../img/琴.png);
+	background: url(../img/qin.png) no-repeat;
 	position: absolute;
 	width: 8.5vw;
 	height: 25vh;
@@ -233,7 +233,7 @@
 	transition-duration: 0.5s;
 }
 .spicesImg{
-	background: url(../img/香料.png);
+	background: url(../img/xiangliao.png) no-repeat;
 	position: absolute;
 	width: 8.5vw;
 	height: 18vh;
@@ -247,7 +247,7 @@
 	transition-duration: 0.5s;
 }
 .flaskImg{
-	background: url(../img/壶.png);
+	background: url(../img/hu.png) no-repeat;
 	position: absolute;
 	width: 5.5vw;
 	height: 16vh;
@@ -261,7 +261,7 @@
 	transition-duration: 0.5s;
 }
 .spicesGressImg{
-	background: url(../img/香料草.png);
+	background: url(../img/xiangliaocao.png) no-repeat;
 	position: absolute;
 	width: 11.5vw;
 	height: 11vh;
@@ -270,7 +270,7 @@
 	background-size: 100% 100%;
 }
 .flaskGressImg{
-	background: url(../img/壶草.png);
+	background: url(../img/huGress.png);
 	position: absolute;
 	width: 7.5vw;
 	height: 7vh;
@@ -279,7 +279,7 @@
 	background-size: 100% 100%;
 }
 .completeFlaskImg{
-	background: url(../img/壶.png);
+	background: url(../img/hu.png);
 	position: absolute;
 	width: 5.5vw;
 	height: 14vh;
@@ -288,7 +288,7 @@
 	background-size: 100% 100%;
 }
 .completeSpicesImg{
-	background: url(../img/香料.png);
+	background: url(../img/xiangliao.png);
 	position: absolute;
 	width: 6vw;
 	height: 12vh;
@@ -297,18 +297,18 @@
 	background-size: 100% 100%;
 }
 .completeZitherImg{
-	background: url(../img/琴.png);
+	background: url(../img/qin.png);
 	position: absolute;
 	width: 8vw;
-	height: 17vh;
-	top: 43.65vh;
-	left: 85.8vw;
+	height: 18vh;
+	top: 43vh;
+	left: 85.9vw;
 	background-size: 100% 100%;
 }
 
 /*图例界面*/
 #atlasCheese{
-	background: url(../img/奶酪.png) no-repeat;
+	background: url(../img/nailao.png) no-repeat;
 	position: absolute;
 	width: 6vw;
 	height: 9vh;
@@ -317,7 +317,7 @@
 	background-size: 100% 100%;
 }
 #atlasNoodle{
-	background: url(../img/面.png) no-repeat;
+	background: url(../img/mian.png) no-repeat;
 	position: absolute;
 	width: 6vw;
 	height: 9vh;
@@ -326,7 +326,7 @@
 	background-size: 100% 100%;
 }
 #atlasShoes{
-	background: url(../img/高跟鞋.png) no-repeat;
+	background: url(../img/shoe.png) no-repeat;
 	position: absolute;
 	width: 6vw;
 	height: 9vh;
@@ -335,7 +335,7 @@
 	background-size: 100% 100%;
 }
 #atlasBlockImg{
-	background: url(../img/图鉴页面.png) no-repeat;
+	background: url(../img/atlas.png) no-repeat;
 	position: absolute;
 	width: 34vw;
 	height: 46vh;
@@ -344,7 +344,7 @@
 	background-size: 100% 100%;
 }
 #atlasZither{
-	background: url(../img/琴.png) no-repeat;
+	background: url(../img/qin.png) no-repeat;
 	position: absolute;
 	width: 5vw;
 	height: 13vh;
@@ -353,7 +353,7 @@
 	background-size: 100% 100%;
 }
 #atlasFlask{
-	background: url(../img/壶.png) no-repeat;
+	background: url(../img/hu.png) no-repeat;
 	position: absolute;
 	width: 5vw;
 	height: 13vh;
@@ -362,7 +362,7 @@
 	background-size: 100% 100%;
 }
 #atlasSpices{
-	background: url(../img/香料.png) no-repeat;
+	background: url(../img/xiangliao.png) no-repeat;
 	position: absolute;
 	width: 5vw;
 	height: 13vh;
@@ -370,6 +370,37 @@
 	left: 9.8vw;
 	background-size: 100% 100%;
 }
+#atlasReel{
+	background: url(../img/reel.png) no-repeat;
+	position: absolute;
+	width: 5vw;
+	height: 13vh;
+	top: 15.65vh;
+	left: 26.8vw;
+	background-size: 100% 100%;
+}
+#atlasPot{
+	background: url(../img/pot.png) no-repeat;
+	position: absolute;
+	width: 8vw;
+	height: 17vh;
+	top: 11.65vh;
+	left: 5.8vw;
+	background-size: 100% 100%;
+}
+#atlasCamel{
+	background: url(../img/camel1.png) no-repeat;
+	position: absolute;
+	width: 7vw;
+	height: 13vh;
+	top: 15.65vh;
+	left: 16.8vw;
+	background-size: 100% 100%;
+}
+
+
+
+
 .littleBoat{
 	width: 11vw;
 	height: 19vh;
@@ -409,7 +440,7 @@
 }
 
 .backButton{
-	background-image: url(../img/退格.png);
+	background: url(../img/tuige.png) no-repeat;
 	width: 3vw;
 	height: 4vh;
 	top: 1vh;
@@ -417,6 +448,7 @@
 	position: absolute;
 	background-size: 100% 100%;
 	cursor: pointer;
+	background-color: transparent;
 }
 .gameText{
 	width: 7vw;
@@ -442,7 +474,7 @@
 .selectPerson{
 	width: 54vw;
 	height: 57vh;
-	background: url(../img/选人物界面.png);
+	background: url(../img/selectPerson.png) no-repeat;
 	background-size: 100% 100%;
 	top: 24vh;
 	left: 27vw;
@@ -452,7 +484,7 @@
 .selectPersonText{
 	width: 13vw;
 	height: 4vh;
-	background: url(../img/选择人物%20.png);
+	background: url(../img/text.png) no-repeat;
 	background-size: 100% 100%;
 	top: 2vh;
 	left: 16vw;
@@ -462,7 +494,7 @@
 .maizhelun{
 	width: 7.5vw;
 	height: 42vh;
-	background: url(../img/麦哲伦.png);
+	background: url(../img/mai.png) no-repeat;
 	background-size: 100% 100%;
 	top: 9vh;
 	left: 10vw;
@@ -473,7 +505,7 @@
 .zhenghe{
 	width: 8vw;
 	height: 42vh;
-	background: url(../img/郑和.png);
+	background: url(../img/zhenghe.png) no-repeat;
 	background-size: 100% 100%;
 	top: 9vh;
 	left: 26vw;
@@ -487,7 +519,7 @@
 	height: 50vh;
 	top: 24vh;
 	left: 18vw;
-	background: url(../img/香料介绍.png);
+	background: url(../img/xiangliaoIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -498,7 +530,7 @@
 	height: 50vh;
 	top: 24vh;
 	left: 35vw;
-	background: url(../img/琴介绍.png);
+	background: url(../img/qinIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -509,7 +541,7 @@
 	height: 50vh;
 	top: 45vh;
 	left: 41vw;
-	background: url(../img/壶介绍.png);
+	background: url(../img/huIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -520,7 +552,7 @@
 	height: 50vh;
 	top: 51vh;
 	left: 28vw;
-	background: url(../img/泰姬陵介绍.png);
+	background: url(../img/taijilinIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -531,7 +563,7 @@
 	height: 50vh;
 	top: 28vh;
 	left: 28vw;
-	background: url(../img/莲花庙介绍.png);
+	background: url(../img/lianIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -542,7 +574,7 @@
 	height: 50vh;
 	top: 38vh;
 	left: 15vw;
-	background: url(../img/印度门介绍.png);
+	background: url(../img/yindumenIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -553,7 +585,7 @@
 	height: 50vh;
 	top: 16vh;
 	left: 40vw;
-	background: url(../img/琥珀堡介绍.png);
+	background: url(../img/hupobaoIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -587,7 +619,7 @@
 	}
 }
 .ChinaMap{
-	background: url(../img/宁波港.png);
+	background: url(../img/nibo.png) no-repeat;
 	margin-left: 5vw;
 	width: 90vw;
 	height: 100vh;
@@ -598,7 +630,7 @@
 	height: 40vh;
 	top: 15vh;
 	left: 31vw;
-	background: url(../img/宁波国际会展中心.png);
+	background: url(../img/center.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -609,7 +641,7 @@
 	height: 21vh;
 	top: 51vh;
 	left: 7vw;
-	background: url(../img/庆安会馆.png);
+	background: url(../img/qingan.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -620,7 +652,7 @@
 	height: 24vh;
 	top: 61vh;
 	left: 34vw;
-	background: url(../img/七塔寺.png);
+	background: url(../img/qita.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -631,7 +663,7 @@
 	height: 36vh;
 	top: 4vh;
 	left: 11vw;
-	background: url(../img/天封塔.png);
+	background: url(../img/tianta.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -642,7 +674,7 @@
 	height: 16vh;
 	top: 9vh;
 	left: 31vw;
-	background: url(../img/阿育王寺.png);
+	background: url(../img/ayuwang.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -653,7 +685,7 @@
 	height: 52vh;
 	top: 19.5vh;
 	left: 17vw;
-	background: url(../img/宁波树丛.png);
+	background: url(../img/niboGress.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -684,7 +716,7 @@
 	height: 50vh;
 	top: 49vh;
 	left: 20vw;
-	background: url(../img/庆安会馆介绍.png);
+	background: url(../img/qinanIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -695,7 +727,7 @@
 	height: 50vh;
 	top: 52vh;
 	left: 50vw;
-	background: url(../img/七塔寺介绍.png);
+	background: url(../img/qitaIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -706,7 +738,7 @@
 	height: 50vh;
 	top: 26vh;
 	left: 20vw;
-	background: url(../img/天童寺介绍.png);
+	background: url(../img/tiantongIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -717,7 +749,7 @@
 	height: 50vh;
 	top: 19vh;
 	left: 41vw;
-	background: url(../img/阿育王寺介绍.png);
+	background: url(../img/ayuwangIntro.png) no-repeat;
 	background-size: 100% 100%;
 	background-color: transparent;
 	position: absolute;
@@ -726,7 +758,7 @@
 
 /*结束界面*/
 .finishMap{
-	background: url(../img/结束界面.png);
+	background: url(../img/over.png);
 	margin-left: 5vw;
 	width: 90vw;
 	height: 100vh;
@@ -746,6 +778,7 @@
 	background-color: transparent;
 	position: absolute;
 	z-index: 3;
+	cursor: pointer;
 }
 .gameZitherLeft{
 	background-color: transparent;
@@ -754,6 +787,7 @@
 	position: absolute;
 	top: 31vh;
 	left: 9vw;
+	cursor: pointer;
 }
 .gameFlaskLeft{
 	background-color: transparent;
@@ -762,6 +796,7 @@
 	position: absolute;
 	top: 20vh;
 	left: 10vw;
+	cursor: pointer;
 }
 .gameSpicesLeft{
 	background-color: transparent;
@@ -770,6 +805,7 @@
 	position: absolute;
 	top: 41vh;
 	left: 9vw;
+	cursor: pointer;
 }
 .gameZitherRight{
 	background-color: transparent;
@@ -778,6 +814,7 @@
 	position: absolute;
 	top: 41vh;
 	left: 23vw;
+	cursor: pointer;
 }
 .gameSpicesRight{
 	background-color: transparent;
@@ -786,6 +823,7 @@
 	position: absolute;
 	top: 22vh;
 	left: 23vw;
+	cursor: pointer;
 }
 .gameFlaskRight{
 	background-color: transparent;
@@ -818,4 +856,497 @@
 	position: absolute;
 	top: 23.5vh;
 	left: 14vw;
+}
+
+/*意大利地图界面*/
+.littleBoatInItaly{
+	background-color: transparent;
+	width: 11vw;
+	height: 19vh;
+	top: 77vh;
+	left: 14.8vw;
+	background-size: 100% 100%;
+	position: absolute;
+	animation: ItalyBoat 4s linear forwards;
+}
+@keyframes ItalyBoat{
+	0%{
+		top: 77vh;
+		left: 14.8vw;
+	}
+	60%{
+		top: 50vh;
+		left: 41.8vw;
+	}
+	100%{
+		top: 30vh;
+		left: 30.8vw;
+	}
+}
+.gameManButton{
+	background-color: transparent;
+	width: 8vw;
+	height: 6vh;
+	position: absolute;
+	top: 33vh;
+	left: 9vw;
+}
+.gameWomanButton{
+	background-color: transparent;
+	width: 8vw;
+	height: 6vh;
+	position: absolute;
+	top: 33vh;
+	left: 21.5vw;
+}
+
+.ItalyMap{
+	background: url(../img/yidali.png);
+	margin-left: 5vw;
+	width: 90vw;
+	height:100vh;
+	background-size: 100% 100%;
+}
+.mian{
+	position: absolute;
+	top:34.5vh;
+	left:49.5vw;
+	width: 8vw;
+	height: 16vh;
+	cursor: pointer;
+	background-color: transparent;
+}
+ .mian:hover{
+	transform: scale(1.1,1.1);
+ }
+ .shoes{
+	 position: absolute;
+	 top:59.7vh;
+	 left:64vw;
+	 width: 6vw;
+	 height: 11vh;
+	 cursor: pointer;
+	 background-color: transparent;
+ }
+ .shoes:hover{
+	transform: scale(1.1,1.1);
+	}
+ .cheese{
+	 position: absolute;
+	 top:66vh;
+	 left:19vw;
+	 width: 6vw;
+	 height: 9vh;
+	 cursor: pointer;
+	 background-color: transparent;
+ }
+ .cheese:hover{
+	transform: scale(1.1,1.1);
+ }
+ .datang{
+	 position: absolute;
+	 top:15vh;
+	 left:38.5vw;
+	 width: 16vw;
+	 height: 20vh;
+	 cursor: pointer;
+	 background-color: transparent;
+ }
+  .datang:hover{
+	transform: scale(1.1,1.1);
+ }
+ .tower{
+	 position: absolute;
+	 left:66vh;
+	 top:-1.7vw;
+	 width: 9vw;
+	 height: 32vh;
+	 cursor: pointer;
+	 background-color: transparent;
+ }
+ .tower:hover{
+	transform: scale(1.1,1.1);
+ } 
+ .jiaotang{
+	 position: absolute;
+	 top:32vh;
+	 left:20.5vw;
+	 width: 9vw;
+	 height: 33vh;
+	 cursor: pointer;
+	 background-color: transparent;
+ }
+ .jiaotang:hover{
+	transform: scale(1.1,1.1);
+ }
+ .Rome{
+	 position: absolute;
+	 bottom:40.5vh;
+	 left:63vw;
+	 width: 12vw;
+	 height: 17vh;
+	 cursor: pointer;
+	 background-color: transparent;
+ }
+ .Rome:hover{
+	transform: scale(1.1,1.1);
+ }
+ 
+ .grass{
+	 background: url(../img/littlegress.png) no-repeat;
+	 position: absolute;
+	 right: 31vw;
+	 top:45vh;
+	 width: 47vw;
+	 height: 31vh;
+	 background-size: 100% 100%;
+	 background-color: transparent;
+ }
+ .xie1{
+	 position: absolute;
+	 right: 5vw;
+	 top:8.22vh;
+	 width: 8vw;
+	 height: 9vh;
+	 display: none;
+	 background-color: transparent;
+ }
+ .mian1{
+	 width: 9vw;
+	 height: 12vh;
+	 position: absolute;
+	 right:4.7vw;
+	 top:23.6vh;
+	 display: none;
+	 background-color: transparent;
+ }				 
+ .cheese1{
+	 position: absolute;
+	 right:5.9vw;
+	 top:43vh;
+	 width: 8.7vw;
+	 height: 11vh;
+	display: none;
+	background-color: transparent;
+ }
+ .Rome1{
+	 position: absolute;
+	 bottom:27vh;
+	 right:35vw;
+	 width: 35vw;
+	 height: 50vh;
+	 display: none;
+	 background-color: transparent;
+ }
+ .pisa{
+	 position: absolute;
+	 top:50vh;
+	 right:37vw;
+	 width: 35vw;
+	 height: 50vh;
+	 display: none; 
+	 background-color: transparent;
+}
+.towerintroduce{
+	position: absolute;
+	bottom:40vh;
+	right:27vw;
+	width: 35vw;
+	height: 50vh;
+	display: none;
+	background-color: transparent;
+}
+.church{
+	position: absolute;
+	bottom:25vh;
+	right:14vw;
+	width: 35vw;
+	height: 50vh;
+	display: none;
+	background-color: transparent;
+}
+.shoesintroduce{
+	position: absolute;
+	top:13vh;
+	right:34vw;
+	width: 35vw;
+	height: 50vh;
+	display: none;
+	background-color: transparent;
+}
+.cheeseintroduce{
+	position: absolute;
+	top:34vh;
+	left:24vw;
+	width: 35vw;
+	height: 50vh;
+	display: none;
+	background-color: transparent;
+}
+.mianintroduce{
+	position: absolute;
+	bottom:36vh;
+	right:7vw;
+	width: 35vw;
+	height: 50vh;
+	display: none;
+	background-color: transparent;
+}
+
+/*埃及界面*/
+.EgyptMap{
+ background: url(../img/Egyptmap.png) no-repeat;
+ margin-left: 5vw;
+ width: 90vw;
+ height:100vh;
+ background-size: 100% 100%;
+}
+.pyramid{
+background-color: transparent;
+ position: absolute;
+ top:26vh;
+ left:31vw;
+ width:18vw;
+ height:15vh;
+ cursor: pointer;
+}
+.pyramid:hover{
+ transform: scale(1.1,1.1);
+}
+.pyramidintroduce{
+	background-color: transparent;
+ position: absolute;
+ top:13vh;
+ left:40vw;
+ width:35vw;
+ height:50vh;
+ display: none;
+}
+.shrine{
+	background-color: transparent;
+ position: absolute;
+ top:59vh;
+ left:30.5vw;
+ width:17.5vw;
+ height:16.6vh;
+ cursor: pointer;
+}
+.shrine:hover{
+ 
+ transform: scale(1.1,1.1);
+}
+.shrineintroduced{
+	background-color: transparent;
+	 position: absolute;
+	 bottom:20vh;
+	 left:50vw;
+	 width:35vw;
+	 height:50vh;
+	 display: none;
+}
+.temple{
+	background-color: transparent;
+	 position: absolute;
+	 top:35vh;
+	 right:22vw;
+	 width:19vw;
+	 height:16.9vh; 
+	 cursor: pointer;
+}
+.temple:hover{
+ transform: scale(1.1,1.1);
+}
+.templeintroduce{
+	background-color: transparent;
+ position: absolute;
+ bottom:27vh;
+ left:30vw;
+width:35vw;
+height:50vh;
+ display: none;
+}
+.simble{
+	background-color: transparent;
+	 position: absolute;
+	 bottom:8vh;
+	 left:18vw;
+	 width:18vw;
+	 height:16vh;
+	 cursor: pointer;
+}
+.simble:hover{
+ transform: scale(1.1,1.1);
+}
+.simbleintroduce{
+	background-color: transparent;
+	 position: absolute;
+	 top:25vh;
+	 left:20vw;
+	width:35vw;
+	height:50vh;
+	 display: none;
+}
+.reel{
+	background-color: transparent;
+	 position: absolute;
+	 top:22.5vh;
+	 left:14vw;
+	width:9vw;
+	height:18vh; 
+	cursor: pointer;
+}
+.reel:hover{
+
+ transform: scale(1.1,1.1);
+}
+.reelintroduce{
+	background-color: transparent;
+	 position: absolute;
+	 bottom:37vh;
+	 right:40vw;
+	 width:35vw;
+	 height:50vh;
+	 display: none;
+}
+.reelright{
+	background-color: transparent;
+	position: absolute;
+	top:5vh;
+	right:5.3vw;
+	width:6.6vw;
+	height:12vh; 
+	display: none;
+}
+
+.camel{
+	background-color: transparent;
+	position: absolute;
+	bottom:20vh;
+	right:32vw;
+	width:15vw;
+	height:15vh; 
+	cursor: pointer;
+}
+.camel:hover{
+ transform: scale(1.1,1.1);
+}
+.camelintroduce{
+	background-color: transparent;
+	 position: absolute;
+	 bottom:37vh;
+	 right:40vw;
+	 width:35vw;
+	 height:50vh;
+	 display: none;
+}
+.camelright{
+	background-color: transparent;
+	 position: absolute;
+	 top:43vh;
+	 right:5.7vw;
+	width:6.6vw;
+	height:12vh; 
+	 display: none;
+}
+.pot{
+	background-color: transparent;
+	position: absolute;
+	bottom:40vh;
+	right:48vw;
+	width:9vw;
+	height:20vh; 
+	cursor: pointer;
+}
+.pot:hover{
+ transform: scale(1.1,1.1);
+}
+.potintroduce{
+	background-color: transparent;
+	 position: absolute;
+	 bottom:37vh;
+	 right:60vw;
+	 width:35vw;
+	 height:50vh;
+	 display: none;
+}
+.potright{
+	background-color: transparent;
+	 position: absolute;
+	 top:16.7vh;
+	 right:6.0vw;
+	 width:9.7vw;
+	 height:20.5vh;  
+	 display: none;
+}
+.grasses{
+	background-color: transparent;
+	position: absolute;
+	top:53vh;
+	right:35vw;
+	width:16.5vw;
+	height:30vh;
+}
+.tree{
+	background-color: transparent;
+ position: absolute;
+  top:18vh;
+  right:36vw;
+ width:46vw;
+ height:52vh;
+}
+.littleBoatInEgypt{
+	background-color: transparent;
+	width: 11vw;
+	height: 19vh;
+	top: -9vh;
+	left: 11vw;
+	position: absolute;
+	background-size: 100% 100%;
+	animation-timing-function:linear;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+	animation-name:EgyptBoat;
+	animation-duration:3s;
+}
+@Keyframes EgyptBoat{
+	0%{
+		top: -9vh;
+		left: 11vw;
+	}
+	100%{
+		top: 1vh;
+		left: 47vw;
+	}
+}
+.gameLeftTopButton{
+	background-color: transparent;
+	position: absolute;
+	top: 26.5vh;
+	left: 11vw;
+	width: 9vw;
+	height: 6vh;
+}
+.gameLeftBottomButton{
+	background-color: transparent;
+	position: absolute;
+	top: 38vh;
+	left: 11vw;
+	width: 9vw;
+	height: 6vh;
+}
+.gameRightTopButton{
+	background-color: transparent;
+	position: absolute;
+	top: 26.5vh;
+	left: 22vw;
+	width: 9vw;
+	height: 6vh;
+}
+.gameRightBottomButton{
+	background-color: transparent;
+	position: absolute;
+	top: 38vh;
+	left: 22vw;
+	width: 9vw;
+	height: 6vh;
 }
